@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.video_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main h1.h1_custom_font_1 {
+    text-align: center;
+    font-family: 'TheBigMarker';
+    font-size: 6rem;
+}
+
+main img.custom_logo {
+    width: 25rem;
+    height: 25rem;
+}
+
+main div.v_align {
+    position: absolute;
+    background: linear-gradient(90deg, #cdffd8, #94b9ff);
+    width: 30rem;
+    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div form.form_config {
+    width: 20rem;
+    margin: 0 auto;
+}
+
+/* Custom Font Installed */
+@font-face {
+    font-family: 'TheBigMarker';
+    src: url("../fonts/the_big_marker.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
