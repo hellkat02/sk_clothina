@@ -15,7 +15,7 @@
 
 <body>
     <div class="video_background">
-        <video src="{{ asset('videos/live_wallpaper.mp4') }}" autoplay loop muted></video>
+        <video src="{{ asset('videos/live_wallpaper_resize.mp4') }}" autoplay loop muted></video>
     </div>
     <header>
 
@@ -42,25 +42,20 @@
                                 <div class="col d-flex justify-content-center">
                                     <!-- Checkbox -->
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31"
+                                        <input class="form-check-input" type="checkbox" value="" id="remember_me"
                                             checked />
-                                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                                        <label class="form-check-label" for="rememberMe"> Remember me </label>
                                     </div>
                                 </div>
 
                                 <div class="col">
                                     <!-- Simple link -->
-                                    <a href="#!">Forgot password?</a>
+                                    <a href="">Forgot password?</a>
                                 </div>
                             </div>
 
                             <!-- Submit button -->
                             <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
-
-                            <!-- Register buttons -->
-                            <div class="text-center">
-                                <p>Fancy a new account? <a href="#!">Register Here</a></p>
-                            </div>
                         </form>
                     </div>
                 </div>
