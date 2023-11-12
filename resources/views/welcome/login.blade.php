@@ -26,7 +26,8 @@
                 <div class="card v_align rounded-lg">
                     <div class="form-group">
                         <h1 class="h1_custom_font_1">Welcome to SK Clothina</h1>
-                        <form class="form_config">
+                        <form class="form_config" method="POST" action="{{ route('login') }}">
+                            @csrf
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <input type="email" id="user_email" class="form-control" placeholder="Enter email" />
